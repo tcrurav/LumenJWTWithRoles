@@ -1,24 +1,35 @@
-# Lumen PHP Framework
+# API RESTful using Lumen PHP Framework with JWT and Roles
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/d/total.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
+Example of API RESTful using Lumen PHP Framework with JWT and Roles.
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+## Getting Started
 
-## Official Documentation
+I recommend you here some links I have found very helpful to build this example.
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+To start building a JWT Authenticated API with lumen:
+https://dev.to/ndiecodes/build-a-jwt-authenticated-api-with-lumen-2afm
 
-## Contributing
+It's also very interesting this tutorial which explains a role-based API using laravel (Only the first part of the tutorial. For the purpose of this project is not so interesting the Vue.js part of it):
+https://medium.com/@ripoche.b/create-a-spa-with-role-based-authentication-with-laravel-and-vue-js-ac4b260b882f
 
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### Prerequisites
 
-## Security Vulnerabilities
+All you need is... some time and...
+* Visual Studio Code.
+* MySQL Workbench, to host the database also included in the project.
+* PostMan, for the RESTFul tests.
+* More hours than you first could think of...
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+## Built With
 
-## License
+* [Visual Studio Code](https://code.visualstudio.com/) - The Editor used in this project
+* [Lumen](https://lumen.laravel.com/) - Lumen Framework
+* [MySQL Workbench](https://www.mysql.com/products/workbench/) - The Database used
 
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Acknowledgments
+
+* https://dev.to/ndiecodes/build-a-jwt-authenticated-api-with-lumen-2afm. Excellent tutorial to build a JWT Authenticated API with Lumen.
+* https://medium.com/@ripoche.b/create-a-spa-with-role-based-authentication-with-laravel-and-vue-js-ac4b260b882f. Excellent tutorial to build a role based authentication with laravel.
+* https://www.getpostman.com/. Used to test the RESTFul end points of the project.
+* https://gist.github.com/PurpleBooth/109311bb0361f32d87a2. A very complete template for README.md files.
+
